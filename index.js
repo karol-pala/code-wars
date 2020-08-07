@@ -4,7 +4,9 @@ const { narcissistic } = require('./modules/narcissistic');
 const { rgbToHex } = require('./modules/rgbToHex');
 const { tribonacci } = require('./modules/tribonacci');
 const { validBraces } = require('./modules/validBraces')
+const { helloName } = require('./modules/helloName');
 
-console.log(longestSlideDown([[3], [7, 4], [2, 4, 6], [8, 5, 9, 3]]));
-
-console.log(tribonacci([0.5, 0.5, 0.5], 30))
+console.log(helloName());
+console.log(helloName(''));
+console.log(helloName('paUL'));
+console.log(helloName('alice'))
