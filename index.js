@@ -5,8 +5,9 @@ const { rgbToHex } = require('./modules/rgbToHex');
 const { tribonacci } = require('./modules/tribonacci');
 const { validBraces } = require('./modules/validBraces')
 const { helloName } = require('./modules/helloName');
+const { solve } = require('./modules/maxDigitSum');
 
-console.log(helloName());
-console.log(helloName(''));
-console.log(helloName('paUL'));
-console.log(helloName('alice'))
+
+console.log(solve(100))
+console.log(solve(10))
+console.log(solve(48))
